@@ -2,3 +2,8 @@ header{
   height: 90px;
   background-color: #2C3E50;
 }
+
+._jumbotron {
+  height: 300px; /*da togliere*/
+  background-color: #1ABC9C;
+}

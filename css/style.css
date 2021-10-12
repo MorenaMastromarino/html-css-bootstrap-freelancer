@@ -18,6 +18,10 @@
   margin: 0 auto;
 }
 
+._star {
+  padding-bottom: 20px;
+}
+
  /* HEADER */
 header{
   height: 90px;
@@ -73,21 +77,50 @@ header .row i {
 ._jumbotron h1 {
   text-transform: uppercase; 
   font-weight: bold;
+  font-size: 45px;
 }
 
 ._jumbotron p {
   text-transform: uppercase;
-  padding-top: 10px;
 }
-
 
 /* MAIN */
-._image_box {
-  height: 200px; /*togliere*/
-  background-color: #BA4B63;
-  border-radius: 10px;
-  margin: 2px;
+
+/* portfolio */
+._portfolio h2 {
+  text-transform: uppercase; 
+  font-size: 35px;
 }
+
+._portfolio ._image_box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+._portfolio img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+._portfolio ._layover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 65px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(26, 188, 156, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+._portfolio ._image_box:hover ._layover {
+  opacity: 1;
+}
+
+
 
 ._form {
   height: 200px; /*togliere*/

@@ -20,10 +20,43 @@
 
  /* HEADER */
 header{
-  height: 90px;  
+  height: 90px;
+  line-height: 90px;   
+}
+
+header .row h5 {
+  font-weight: bold;
+  line-height: 90px;
+}
+
+header .row nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+header .row nav ul a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+header .row nav ul a:hover {
+  color: #1ABC9C;
+}
+
+header .row i {
+  border: 1px solid #DDDDDD;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #888888;
 }
 
 /* JUMBOTRON */
+._jumbotron {
+  margin-top: 90px;
+}
+
 ._inner_jumbo {
   height: 300px; /*da togliere*/
   width: 800px;
@@ -46,5 +79,6 @@ header{
 /* FOOTER */
 ._footer_top {
   background-color: #3A546D;
+  color: white;
   height: 100px; /*da togliere*/
 }

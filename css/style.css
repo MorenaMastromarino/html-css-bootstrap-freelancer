@@ -85,13 +85,12 @@ header .row i {
 }
 
 /* MAIN */
-
-/* portfolio */
-._portfolio h2 {
+main h2 {
   text-transform: uppercase; 
   font-size: 35px;
 }
 
+/* portfolio */
 ._portfolio ._image_box {
   position: relative;
   margin-bottom: 30px;
@@ -120,7 +119,14 @@ header .row i {
   opacity: 1;
 }
 
+/* about */
+._about button {
+  margin-top: 20px;
+}
 
+._about button:hover {
+  color: #2C3E50;
+}
 
 ._form {
   height: 200px; /*togliere*/

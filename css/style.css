@@ -1,26 +1,50 @@
-header{
-  height: 90px;
+/* GLOBAL */
+._bg_blue {
   background-color: #2C3E50;
+  color: white;
 }
 
-._jumbotron, ._about {
-  height: 300px; /*da togliere*/
+._bg_green {
   background-color: #1ABC9C;
+  color: white;
+}
+
+._py_50 {
+  padding: 50px 0;
+}
+
+._container_60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+ /* HEADER */
+header{
+  height: 90px;  
+}
+
+/* JUMBOTRON */
+._inner_jumbo {
+  height: 300px; /*da togliere*/
+  width: 800px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 ._image_box {
-  min-height: 200px; /*togliere*/
-  min-width: 300px;
+  height: 200px; /*togliere*/
   background-color: #BA4B63;
   border-radius: 10px;
   margin: 2px;
 }
 
-._contact {
-  border-bottom: 1px solid lightgrey;
+/* MAIN */
+._form {
+  height: 200px; /*togliere*/
 }
 
-footer {
+/* FOOTER */
+._footer_top {
   background-color: #3A546D;
   height: 100px; /*da togliere*/
 }

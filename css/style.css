@@ -3,7 +3,24 @@ header{
   background-color: #2C3E50;
 }
 
-._jumbotron {
+._jumbotron, ._about {
   height: 300px; /*da togliere*/
   background-color: #1ABC9C;
+}
+
+._image_box {
+  min-height: 200px; /*togliere*/
+  min-width: 300px;
+  background-color: #BA4B63;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+._contact {
+  border-bottom: 1px solid lightgrey;
+}
+
+footer {
+  background-color: #3A546D;
+  height: 100px; /*da togliere*/
 }

@@ -128,8 +128,20 @@ main h2 {
   color: #2C3E50;
 }
 
-._form {
-  height: 200px; /*togliere*/
+/* contact me */
+._custom_border {
+  border: none;
+  border-bottom: 1px solid #D1D1D1;
+  border-radius: 0;  
+}
+
+._btn_green {
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
+}
+
+::placeholder {
+  color: #2C3E50 !important;
 }
 
 /* FOOTER */

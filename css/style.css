@@ -147,6 +147,30 @@ main h2 {
 /* FOOTER */
 ._footer_top {
   background-color: #3A546D;
-  color: white;
-  height: 100px; /*da togliere*/
+  color: white;  
+}
+
+._footer_top ._social i {
+  padding: 13px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 3px;
+  cursor: pointer;
+}
+
+._footer_top ._social .fa-facebook-f {
+  padding: 12px 15px;
+}
+
+._footer_top ._link_green {
+  text-decoration: none;
+  color: #1ABC9C;
+}
+
+._footer_bottom {
+  padding: 30px;
+}
+
+._footer_bottom p {
+  font-size: 14px;  
 }
